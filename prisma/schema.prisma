@@ -1,0 +1,186 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User/Wallet model
+model Wallet {
+  id            String   @id @default(cuid())
+  address       String   @unique
+  chainId       Int
+  nonce         String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  transfers     Transfer[]
+  stakes        ValidatorStake[]
+  votes         Vote[]
+  
+  @@index([address])
+  @@index([chainId])
+}
+
+// Transfer model
+model Transfer {
+  id                  String   @id @default(cuid())
+  transferHash        String   @unique
+  user                Wallet   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId              String
+  token               String
+  amount              String   // Use string to handle large numbers
+  fee                 String
+  sourceChain         Int
+  destinationChain    Int
+  recipient           String
+  status              TransferStatus @default(INITIATED)
+  txHash              String?
+  proofHash           String?
+  confirmations       Int      @default(0)
+  requiredConfirmations Int    @default(12)
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  completedAt         DateTime?
+  
+  @@index([userId])
+  @@index([status])
+  @@index([sourceChain])
+  @@index([destinationChain])
+  @@index([createdAt])
+}
+
+enum TransferStatus {
+  INITIATED
+  LOCKED
+  CONFIRMED
+  RELEASED
+  FAILED
+  CANCELLED
+}
+
+// Validator model
+model Validator {
+  id              String   @id @default(cuid())
+  address         String   @unique
+  stake           String   // Use string for large numbers
+  joinedAt        DateTime @default(now())
+  active          Boolean  @default(true)
+  slashAmount     String   @default("0")
+  totalRewards    String   @default("0")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  stakes          ValidatorStake[]
+  
+  @@index([address])
+  @@index([active])
+}
+
+// Validator Stake model
+model ValidatorStake {
+  id          String   @id @default(cuid())
+  validator   Validator @relation(fields: [validatorId], references: [id], onDelete: Cascade)
+  validatorId String
+  wallet      Wallet   @relation(fields: [walletId], references: [id], onDelete: Cascade)
+  walletId    String
+  amount      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@unique([validatorId, walletId])
+  @@index([validatorId])
+  @@index([walletId])
+}
+
+// Proposal model
+model Proposal {
+  id          String   @id @default(cuid())
+  title       String
+  description String   @db.Text
+  status      ProposalStatus @default(ACTIVE)
+  votesFor    String   @default("0")
+  votesAgainst String  @default("0")
+  startBlock  Int
+  endBlock    Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  votes       Vote[]
+  
+  @@index([status])
+  @@index([createdAt])
+}
+
+enum ProposalStatus {
+  ACTIVE
+  PASSED
+  FAILED
+  EXECUTED
+  CANCELLED
+}
+
+// Vote model
+model Vote {
+  id          String   @id @default(cuid())
+  proposal    Proposal @relation(fields: [proposalId], references: [id], onDelete: Cascade)
+  proposalId  String
+  wallet      Wallet   @relation(fields: [walletId], references: [id], onDelete: Cascade)
+  walletId    String
+  support     Boolean  // true = for, false = against
+  votingPower String
+  createdAt   DateTime @default(now())
+  
+  @@unique([proposalId, walletId])
+  @@index([proposalId])
+  @@index([walletId])
+}
+
+// Chain configuration
+model ChainConfig {
+  id              String   @id @default(cuid())
+  chainId         Int      @unique
+  name            String
+  rpcUrl          String
+  enabled         Boolean  @default(true)
+  minAmount       String
+  maxAmount       String
+  confirmations   Int      @default(12)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@index([chainId])
+  @@index([enabled])
+}
+
+// Fee configuration
+model FeeConfig {
+  id              String   @id @default(cuid())
+  percentage      Int      // In basis points (e.g., 25 = 0.25%)
+  minFee          String   @default("0")
+  maxFee          String   @default("0")
+  active          Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+// Event log for tracking blockchain events
+model EventLog {
+  id              String   @id @default(cuid())
+  eventType       String
+  chainId         Int
+  blockNumber     Int
+  transactionHash String
+  data            String   @db.Text
+  processed       Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  
+  @@index([eventType])
+  @@index([chainId])
+  @@index([processed])
+}

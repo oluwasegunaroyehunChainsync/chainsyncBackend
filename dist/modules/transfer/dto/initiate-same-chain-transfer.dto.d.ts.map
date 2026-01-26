@@ -1,0 +1,1 @@
+{"version":3,"file":"initiate-same-chain-transfer.dto.d.ts","sourceRoot":"","sources":["../../../../src/modules/transfer/dto/initiate-same-chain-transfer.dto.ts"],"names":[],"mappings":"AAGA,qBAAa,4BAA4B;IAMvC,YAAY,EAAE,MAAM,CAAC;IAOrB,gBAAgB,EAAE,MAAM,CAAC;IAOzB,aAAa,EAAE,MAAM,CAAC;IAOtB,MAAM,EAAE,MAAM,CAAC;IAOf,eAAe,EAAE,MAAM,CAAC;CACzB"}

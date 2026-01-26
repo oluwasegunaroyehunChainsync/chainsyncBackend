@@ -1,0 +1,1 @@
+{"version":3,"file":"verify-signature.dto.d.ts","sourceRoot":"","sources":["../../../../src/modules/auth/dto/verify-signature.dto.ts"],"names":[],"mappings":"AAGA,qBAAa,kBAAkB;IAM7B,OAAO,EAAE,MAAM,CAAC;IAOhB,OAAO,EAAE,MAAM,CAAC;IAOhB,SAAS,EAAE,MAAM,CAAC;IAOlB,KAAK,EAAE,MAAM,CAAC;IAOd,OAAO,EAAE,MAAM,CAAC;CACjB"}

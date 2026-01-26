@@ -1,0 +1,114 @@
+import { TransferService } from './transfer.service';
+import { InitiateSameChainTransferDto } from './dto/initiate-same-chain-transfer.dto';
+import { InitiateCrossChainTransferDto } from './dto/initiate-cross-chain-transfer.dto';
+import { CalculateQuoteDto } from './dto/calculate-quote.dto';
+export declare class TransferController {
+    private readonly transferService;
+    constructor(transferService: TransferService);
+    initiateSameChainTransfer(dto: InitiateSameChainTransferDto, req: any): Promise<{
+        id: string;
+        createdAt: Date;
+        updatedAt: Date;
+        token: string;
+        transferHash: string;
+        userId: string;
+        amount: string;
+        fee: string;
+        sourceChain: number;
+        destinationChain: number;
+        recipient: string;
+        status: import(".prisma/client").$Enums.TransferStatus;
+        txHash: string | null;
+        proofHash: string | null;
+        confirmations: number;
+        requiredConfirmations: number;
+        completedAt: Date | null;
+    }>;
+    initiateCrossChainTransfer(dto: InitiateCrossChainTransferDto, req: any): Promise<{
+        id: string;
+        createdAt: Date;
+        updatedAt: Date;
+        token: string;
+        transferHash: string;
+        userId: string;
+        amount: string;
+        fee: string;
+        sourceChain: number;
+        destinationChain: number;
+        recipient: string;
+        status: import(".prisma/client").$Enums.TransferStatus;
+        txHash: string | null;
+        proofHash: string | null;
+        confirmations: number;
+        requiredConfirmations: number;
+        completedAt: Date | null;
+    }>;
+    calculateQuote(dto: CalculateQuoteDto): Promise<{
+        amount: string;
+        fee: string;
+        netAmount: string;
+        sourceChain: number;
+        destinationChain: number;
+    }>;
+    getTransferStatus(transferId: string): Promise<{
+        id: string;
+        createdAt: Date;
+        updatedAt: Date;
+        token: string;
+        transferHash: string;
+        userId: string;
+        amount: string;
+        fee: string;
+        sourceChain: number;
+        destinationChain: number;
+        recipient: string;
+        status: import(".prisma/client").$Enums.TransferStatus;
+        txHash: string | null;
+        proofHash: string | null;
+        confirmations: number;
+        requiredConfirmations: number;
+        completedAt: Date | null;
+    }>;
+    getUserTransfers(req: any): Promise<{
+        id: string;
+        createdAt: Date;
+        updatedAt: Date;
+        token: string;
+        transferHash: string;
+        userId: string;
+        amount: string;
+        fee: string;
+        sourceChain: number;
+        destinationChain: number;
+        recipient: string;
+        status: import(".prisma/client").$Enums.TransferStatus;
+        txHash: string | null;
+        proofHash: string | null;
+        confirmations: number;
+        requiredConfirmations: number;
+        completedAt: Date | null;
+    }[]>;
+    updateTransferStatus(transferId: string, body: {
+        status: string;
+        txHash: string;
+    }): Promise<{
+        id: string;
+        createdAt: Date;
+        updatedAt: Date;
+        token: string;
+        transferHash: string;
+        userId: string;
+        amount: string;
+        fee: string;
+        sourceChain: number;
+        destinationChain: number;
+        recipient: string;
+        status: import(".prisma/client").$Enums.TransferStatus;
+        txHash: string | null;
+        proofHash: string | null;
+        confirmations: number;
+        requiredConfirmations: number;
+        completedAt: Date | null;
+    }>;
+}
+//# sourceMappingURL=transfer.controller.d.ts.map

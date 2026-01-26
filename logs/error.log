@@ -1,0 +1,422 @@
+2025-12-03 17:07:31:731 [31merror[39m: [31mFailed to start application: Can't reach database server at `localhost:5432`[39m
+
+[31mPlease make sure your database server is running at `localhost:5432`.[39m
+2025-12-03 17:09:07:97 [31merror[39m: [31mFailed to start application: Can't reach database server at `localhost:5432`[39m
+
+[31mPlease make sure your database server is running at `localhost:5432`.[39m
+2026-01-02 08:09:29:929 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:09:29:929 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:09:29:929 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-02 08:09:29:929 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 08:20:49:2049 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-02 08:20:50:2050 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-02 09:11:36:1136 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-02 09:11:36:1136 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 09:11:36:1136 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-02 09:11:36:1136 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-02 10:14:39:1439 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-02 10:14:39:1439 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-02 10:15:17:1517 [31merror[39m: [31mJWT verification failed: jwt malformed[39m
+2026-01-02 10:15:22:1522 [31merror[39m: [31mToken refresh failed: jwt malformed[39m
+2026-01-02 10:16:09:169 [31merror[39m: [31mContract call failed: calculateFee missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x99a5d74700000000000000000000000000000000000000000000d3c21bcecceda1000000", "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)[39m
+2026-01-02 10:16:09:169 [31merror[39m: [31mFailed to calculate quote: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x99a5d74700000000000000000000000000000000000000000000d3c21bcecceda1000000", "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)[39m
+2026-01-02 10:19:32:1932 [31merror[39m: [31mContract call failed: getValidators Provider not available for chain NaN[39m
+2026-01-02 10:19:32:1932 [31merror[39m: [31mFailed to get validators: Provider not available for chain NaN[39m
+2026-01-02 10:19:35:1935 [31merror[39m: [31mContract call failed: getActiveValidatorsCount Provider not available for chain NaN[39m
+2026-01-02 10:19:35:1935 [31merror[39m: [31mFailed to get active validators count: Provider not available for chain NaN[39m
+2026-01-02 10:19:37:1937 [31merror[39m: [31mContract call failed: getValidator Provider not available for chain NaN[39m
+2026-01-02 10:19:37:1937 [31merror[39m: [31mFailed to get validator info: Provider not available for chain NaN[39m
+2026-01-02 10:19:40:1940 [31merror[39m: [31mContract call failed: isActiveValidator Provider not available for chain NaN[39m
+2026-01-02 10:19:40:1940 [31merror[39m: [31mFailed to check if validator is active: Provider not available for chain NaN[39m
+2026-01-02 10:19:43:1943 [31merror[39m: [31mContract call failed: getValidatorStake Provider not available for chain NaN[39m
+2026-01-02 10:19:43:1943 [31merror[39m: [31mFailed to get validator stake: Provider not available for chain NaN[39m
+2026-01-02 10:20:28:2028 [31merror[39m: [31mFailed to get proposal: Proposal not found[39m
+2026-01-02 10:20:39:2039 [31merror[39m: [31mContract call failed: getVotes Provider not available for chain NaN[39m
+2026-01-02 10:20:39:2039 [31merror[39m: [31mFailed to get voting power: Provider not available for chain NaN[39m
+2026-01-03 19:36:41:3641 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-03 19:36:41:3641 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-03 19:36:41:3641 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-03 19:36:41:3641 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-03 20:39:01:391 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:39:01:391 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:39:08:398 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:39:08:398 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:39:29:3929 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:39:29:3929 [31merror[39m: [31mSame-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:40:36:4036 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:40:36:4036 [31merror[39m: [31mSame-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-03 20:42:11:4211 [31merror[39m: [31mJWT verification failed: invalid signature[39m
+2026-01-03 21:09:06:96 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:09:06:96 [31merror[39m: [31mCross-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:09:19:919 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:09:19:919 [31merror[39m: [31mCross-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:13:22:1322 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:13:22:1322 [31merror[39m: [31mCross-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:13:43:1343 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-03 21:13:43:1343 [31merror[39m: [31mSame-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-04 08:44:37:4437 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-04 08:44:37:4437 [31merror[39m: [31mCross-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-04 09:02:19:219 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-04 09:02:19:219 [31merror[39m: [31mSame-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-04 09:17:02:172 [31merror[39m: [31mSame-chain transfer initiation failed: Insufficient balance[39m
+2026-01-04 09:23:31:2331 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:23:36:2336 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:24:32:2432 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:27:27:2727 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:29:01:291 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:29:14:2914 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:29:36:2936 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:31:47:3147 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:34:14:3414 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:34:17:3417 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:35:07:357 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:35:19:3519 [31merror[39m: [31mSame-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:95:51[39m
+
+[31m  92   ),[39m
+[31m  93 );[39m
+[31m  94 [39m
+[31m→ 95 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:35:37:3537 [31merror[39m: [31mCross-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:195:51[39m
+
+[31m  192   ),[39m
+[31m  193 );[39m
+[31m  194 [39m
+[31m→ 195 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:35:51:3551 [31merror[39m: [31mCross-chain transfer initiation failed: [39m
+[31mInvalid `this.prisma.transfer.create()` invocation in[39m
+[31mC:\Users\aroye\Downloads\Chainsync Code\chainsync-complete\backend\src\modules\transfer\transfer.service.ts:195:51[39m
+
+[31m  192   ),[39m
+[31m  193 );[39m
+[31m  194 [39m
+[31m→ 195 const transfer = await this.prisma.transfer.create([39m
+[31mForeign key constraint violated: `Transfer_userId_fkey (index)`[39m
+2026-01-04 09:38:54:3854 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:39:02:392 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:39:17:3917 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:39:17:3917 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:39:17:3917 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 09:39:17:3917 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 09:39:18:3918 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:40:27:4027 [31merror[39m: [31mCross-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:40:31:4031 [31merror[39m: [31mCross-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:41:24:4124 [31merror[39m: [31mCross-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:41:53:4153 [31merror[39m: [31mSame-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:43:25:4325 [31merror[39m: [31mSame-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:47:14:4714 [31merror[39m: [31mCross-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:47:41:4741 [31merror[39m: [31mSame-chain transfer initiation failed: Wallet not found for address: 0x67A4B8E02A84dc52D8cF67ceE4cE899399d53241[39m
+2026-01-04 09:49:38:4938 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:49:38:4938 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:49:40:4940 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 09:49:40:4940 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:49:40:4940 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:49:40:4940 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 09:49:59:4959 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:49:59:4959 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 09:50:00:500 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:50:00:500 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 09:50:00:500 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 09:50:00:500 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:09:03:93 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:09:03:93 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:09:05:95 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:09:05:95 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:09:05:95 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:09:05:95 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:09:40:940 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:09:40:940 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:09:41:941 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:09:41:941 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:09:41:941 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:09:41:941 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:10:07:107 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:10:07:107 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:10:09:109 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:10:09:109 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:10:09:109 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:10:09:109 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:12:30:1230 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:12:30:1230 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:12:32:1232 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:12:32:1232 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:12:32:1232 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:12:32:1232 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:12:47:1247 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:12:47:1247 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:12:49:1249 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:12:49:1249 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:12:49:1249 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:12:49:1249 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:27:38:2738 [31merror[39m: [31mTransaction failed: transferSameChain nonce has already been used (transaction="0x02f8d2827a690c843b9aca008454eb4be48307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0a7bc67406c44ed436be0b925301c8dfd841d8d30707c8963cd0a3233f2462fd1a06adb9a4e526569f74796a3e3736a975fd5231c3128f532bc1e71694964af8b13", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:27:38:2738 [31merror[39m: [31mBlockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a690c843b9aca008454eb4be48307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0a7bc67406c44ed436be0b925301c8dfd841d8d30707c8963cd0a3233f2462fd1a06adb9a4e526569f74796a3e3736a975fd5231c3128f532bc1e71694964af8b13", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:27:38:2738 [31merror[39m: [31mSame-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a690c843b9aca008454eb4be48307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0a7bc67406c44ed436be0b925301c8dfd841d8d30707c8963cd0a3233f2462fd1a06adb9a4e526569f74796a3e3736a975fd5231c3128f532bc1e71694964af8b13", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 13 but got 12. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:28:24:2824 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:28:24:2824 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:28:25:2825 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:28:26:2826 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:28:26:2826 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:28:26:2826 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:28:26:2826 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:29:54:2954 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:29:55:2955 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:29:55:2955 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 10:29:56:2956 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 10:29:56:2956 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:29:56:2956 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 10:29:56:2956 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 10:33:21:3321 [31merror[39m: [31mTransaction failed: transferSameChain nonce has already been used (transaction="0x02f8d2827a690d843b9aca008451d323a88307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0fd3faaf1ebdc19fb75be2f5bfd583c4f193ee2f7c97f5b606fa1036ca4131b62a00fe04b17e6881e6bfdea2def0f5bce493685ae5dd6dd3f169139a1af6770314b", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:21:3321 [31merror[39m: [31mBlockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a690d843b9aca008451d323a88307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0fd3faaf1ebdc19fb75be2f5bfd583c4f193ee2f7c97f5b606fa1036ca4131b62a00fe04b17e6881e6bfdea2def0f5bce493685ae5dd6dd3f169139a1af6770314b", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:21:3321 [31merror[39m: [31mSame-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a690d843b9aca008451d323a88307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c080a0fd3faaf1ebdc19fb75be2f5bfd583c4f193ee2f7c97f5b606fa1036ca4131b62a00fe04b17e6881e6bfdea2def0f5bce493685ae5dd6dd3f169139a1af6770314b", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 14 but got 13. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:43:3343 [31merror[39m: [31mTransaction failed: initiateTransfer nonce has already been used (transaction="0x02f8f2827a690e843b9aca00844f0e46e68307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a0bf99c9aeafb917396b80f755cd89957546d20e44551ea0c0781c4a51d8320c62a07d9cd7c6dd7a78106b95e8acdddf71f99a75f0ba36512dbd4557221b05d84945", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:43:3343 [31merror[39m: [31mCross-chain blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a690e843b9aca00844f0e46e68307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a0bf99c9aeafb917396b80f755cd89957546d20e44551ea0c0781c4a51d8320c62a07d9cd7c6dd7a78106b95e8acdddf71f99a75f0ba36512dbd4557221b05d84945", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:43:3343 [31merror[39m: [31mCross-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a690e843b9aca00844f0e46e68307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a0bf99c9aeafb917396b80f755cd89957546d20e44551ea0c0781c4a51d8320c62a07d9cd7c6dd7a78106b95e8acdddf71f99a75f0ba36512dbd4557221b05d84945", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 15 but got 14. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:48:3348 [31merror[39m: [31mTransaction failed: initiateTransfer nonce has already been used (transaction="0x02f8f2827a690f843b9aca00844ca0ecc08307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c080a0214db82891534bcbad01d82e4ec547bc2e77c14494b5b7cdccbfa9b5924e47d4a06bb3611f5e74aa7f7784e33980d18d962ab9f2ff4a5f3bdb6a303acc9b5818f1", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:48:3348 [31merror[39m: [31mCross-chain blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a690f843b9aca00844ca0ecc08307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c080a0214db82891534bcbad01d82e4ec547bc2e77c14494b5b7cdccbfa9b5924e47d4a06bb3611f5e74aa7f7784e33980d18d962ab9f2ff4a5f3bdb6a303acc9b5818f1", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:33:48:3348 [31merror[39m: [31mCross-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a690f843b9aca00844ca0ecc08307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c080a0214db82891534bcbad01d82e4ec547bc2e77c14494b5b7cdccbfa9b5924e47d4a06bb3611f5e74aa7f7784e33980d18d962ab9f2ff4a5f3bdb6a303acc9b5818f1", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 16 but got 15. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:36:47:3647 [31merror[39m: [31mTransaction failed: initiateTransfer nonce has already been used (transaction="0x02f8f2827a6910843b9aca00844a811b408307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a091a07d0a49f2577e80aec2f9bf23a55bfc52fec5fc1f3ac7e541674214c54179a0264ede23d56ac98c2ec04c8b0085a3fb9735b609ad1ede69079328d7b1e7d2ef", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:36:47:3647 [31merror[39m: [31mCross-chain blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a6910843b9aca00844a811b408307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a091a07d0a49f2577e80aec2f9bf23a55bfc52fec5fc1f3ac7e541674214c54179a0264ede23d56ac98c2ec04c8b0085a3fb9735b609ad1ede69079328d7b1e7d2ef", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:36:47:3647 [31merror[39m: [31mCross-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8f2827a6910843b9aca00844a811b408307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b884b1c17ac40000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa30000000000000000000000000000000000000000000000004563918244f40000000000000000000000000000000000000000000000000000000000000000008900000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d53241c001a091a07d0a49f2577e80aec2f9bf23a55bfc52fec5fc1f3ac7e541674214c54179a0264ede23d56ac98c2ec04c8b0085a3fb9735b609ad1ede69079328d7b1e7d2ef", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 17 but got 16. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:44:41:4441 [31merror[39m: [31mTransaction failed: transferSameChain nonce has already been used (transaction="0x02f8d2827a6911843b9aca008448a525a28307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c001a029db80cbebabab4748ebcbc71055eac8befccb1f5fa7df7e761f6cb71f730560a02156a023b4a6c6d6216b54c213472b89be2481d69228fca7cd933d5a0164ac4f", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:44:41:4441 [31merror[39m: [31mBlockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a6911843b9aca008448a525a28307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c001a029db80cbebabab4748ebcbc71055eac8befccb1f5fa7df7e761f6cb71f730560a02156a023b4a6c6d6216b54c213472b89be2481d69228fca7cd933d5a0164ac4f", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 10:44:41:4441 [31merror[39m: [31mSame-chain transfer initiation failed: Transfer record created but blockchain transaction failed: nonce has already been used (transaction="0x02f8d2827a6911843b9aca008448a525a28307a12094e7f1725e7734ce288f8367e1bb143e90bb3f051280b864432ef7c70000000000000000000000005fbdb2315678afecb367f032d93f642f64180aa300000000000000000000000067a4b8e02a84dc52d8cf67cee4ce899399d532410000000000000000000000000000000000000000000000004563918244f40000c001a029db80cbebabab4748ebcbc71055eac8befccb1f5fa7df7e761f6cb71f730560a02156a023b4a6c6d6216b54c213472b89be2481d69228fca7cd933d5a0164ac4f", info={ "error": { "code": -32000, "data": { "data": null, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." }, "message": "Nonce too low. Expected nonce to be 18 but got 17. Note that transactions can't be queued when automining." } }, code=NONCE_EXPIRED, version=6.16.0)[39m
+2026-01-04 11:01:58:158 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:01:58:158 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:01:58:158 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:01:58:158 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:02:17:217 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:02:17:217 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:02:17:217 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:02:17:217 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:02:33:233 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:02:33:233 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:02:34:234 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:02:34:234 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:03:07:37 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:03:07:37 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:03:07:37 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:03:07:37 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:03:25:325 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:03:25:325 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:03:25:325 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:03:25:325 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:04:11:411 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:04:11:411 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:04:11:411 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:04:11:411 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:04:27:427 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:04:27:427 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:04:27:427 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:04:27:427 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:04:53:453 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:04:53:453 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:04:53:453 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:08:55:855 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:08:55:855 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:08:55:855 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:08:55:855 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:09:08:98 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:09:08:98 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:09:08:98 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-04 11:09:10:910 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-04 11:09:10:910 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:09:10:910 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-04 11:09:10:910 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-04 11:37:29:3729 [31merror[39m: [31mSame-chain transfer initiation failed: invalid FixedNumber string value (argument="value", value="3e-7", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-06 10:20:03:203 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-06 10:20:04:204 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-06 10:20:04:204 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-06 10:20:04:204 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-06 10:20:29:2029 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-06 10:25:23:2523 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-06 23:53:33:5333 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-09 12:14:57:1457 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-09 14:01:52:152 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 14:01:52:152 [31merror[39m: [31mSame-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 14:15:20:1520 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 14:15:20:1520 [31merror[39m: [31mSame-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 18:34:17:3417 [31merror[39m: [31mContract call failed: balanceOf network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 18:34:17:3417 [31merror[39m: [31mCross-chain transfer initiation failed: network changed: 1 => 31337  (event="changed", code=NETWORK_ERROR, version=6.16.0)[39m
+2026-01-09 18:42:37:4237 [31merror[39m: [31mContract call failed: balanceOf could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-09 18:42:37:4237 [31merror[39m: [31mSame-chain transfer initiation failed: could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-09 18:43:00:430 [31merror[39m: [31mContract call failed: balanceOf could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-09 18:43:00:430 [31merror[39m: [31mSame-chain transfer initiation failed: could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-09 18:48:56:4856 [31merror[39m: [31mContract call failed: balanceOf could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-09 18:48:56:4856 [31merror[39m: [31mSame-chain transfer initiation failed: could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-12 10:19:00:190 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-12 10:24:21:2421 [31merror[39m: [31mContract call failed: balanceOf could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-12 10:24:21:2421 [31merror[39m: [31mSame-chain transfer initiation failed: could not decode result data (value="0x", info={ "method": "balanceOf", "signature": "balanceOf(address)" }, code=BAD_DATA, version=6.16.0)[39m
+2026-01-18 07:17:46:1746 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-18 07:17:46:1746 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-18 07:17:46:1746 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-18 07:17:46:1746 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-18 09:02:09:29 [31merror[39m: [31mSame-chain transfer initiation failed: Insufficient balance[39m
+2026-01-18 09:02:15:215 [31merror[39m: [31mSame-chain transfer initiation failed: Insufficient balance[39m
+2026-01-18 09:02:19:219 [31merror[39m: [31mSame-chain transfer initiation failed: Insufficient balance[39m
+2026-01-18 09:03:01:31 [31merror[39m: [31mSame-chain transfer initiation failed: Insufficient balance[39m
+2026-01-19 10:31:47:3147 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-19 10:31:47:3147 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-19 10:31:47:3147 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-19 10:31:47:3147 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 08:51:18:5118 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 08:51:18:5118 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 08:51:18:5118 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 08:51:19:5119 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 09:20:05:205 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 09:20:05:205 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 09:20:05:205 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 09:20:05:205 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 09:57:27:5727 [31merror[39m: [31mFailed to start application: listen EADDRINUSE: address already in use :::3001[39m
+2026-01-21 10:14:37:1437 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 10:14:37:1437 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 10:14:40:1440 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 10:14:40:1440 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 10:18:16:1816 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:18:16:1816 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:18:18:1818 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:18:29:1829 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 10:18:29:1829 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:18:29:1829 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:18:29:1829 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 10:19:30:1930 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:25:51:2551 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:25:51:2551 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:25:51:2551 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:25:51:2551 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:25:56:2556 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 10:25:56:2556 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:25:56:2556 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:25:56:2556 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 10:34:45:3445 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:34:45:3445 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:34:45:3445 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:34:46:3446 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:34:53:3453 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 10:34:53:3453 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:34:53:3453 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:34:54:3454 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 10:35:39:3539 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:35:40:3540 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:35:40:3540 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:35:40:3540 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:35:47:3547 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 10:35:47:3547 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:35:47:3547 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:35:47:3547 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 10:36:16:3616 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:36:16:3616 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:36:16:3616 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:36:17:3617 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:36:25:3625 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 10:36:26:3626 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:36:26:3626 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 10:36:26:3626 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 10:40:56:4056 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:49:26:4926 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:53:35:5335 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 10:59:52:5952 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 10:59:52:5952 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:02:31:231 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:02:31:231 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:02:31:231 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:02:31:231 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:02:31:231 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:05:25:525 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:22:03:223 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:22:03:223 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:28:24:2824 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:28:24:2824 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:31:20:3120 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 11:41:06:416 [31merror[39m: [31mContract call failed: balanceOf connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 11:41:06:416 [31merror[39m: [31mCross-chain transfer initiation failed: connect ECONNREFUSED 127.0.0.1:8545[39m
+2026-01-21 17:16:37:1637 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 17:16:37:1637 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-21 17:16:37:1637 [31merror[39m: [31mToken validation failed: Invalid token[39m
+2026-01-21 17:16:37:1637 [31merror[39m: [31mProvider not found for chainId 999. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-21 17:16:37:1637 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-21 17:17:26:1726 [31merror[39m: [31mProvider not found for chainId 31337. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-21 17:17:26:1726 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 17:18:28:1828 [31merror[39m: [31mProvider not found for chainId 31337. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-21 17:19:43:1943 [31merror[39m: [31mProvider not found for chainId 31337. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-21 17:19:43:1943 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-21 17:22:37:2237 [31merror[39m: [31mProvider not found for chainId 31337. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-21 17:22:37:2237 [31merror[39m: [31mFailed to setup event listeners for chain 31337: Provider not available for chain 31337[39m
+2026-01-26 11:01:34:134 [31merror[39m: [31mProvider not found for chainId 999. Available keys: 1, 10, 137, 42161, 80002, 421614, 11155111[39m
+2026-01-26 11:01:34:134 [31merror[39m: [31mSignature verification failed: invalid BytesLike value (argument="signature", value="0x...", code=INVALID_ARGUMENT, version=6.16.0)[39m
+2026-01-26 11:01:34:134 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-26 11:01:34:134 [31merror[39m: [31mChallenge generation failed: Invalid address[39m
+2026-01-26 11:01:34:134 [31merror[39m: [31mToken validation failed: Invalid token[39m

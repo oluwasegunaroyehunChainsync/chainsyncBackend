@@ -1,0 +1,1 @@
+{"version":3,"file":"vote-on-proposal.dto.d.ts","sourceRoot":"","sources":["../../../../src/modules/governance/dto/vote-on-proposal.dto.ts"],"names":[],"mappings":"AAGA,qBAAa,iBAAiB;IAM5B,UAAU,EAAE,MAAM,CAAC;IAOnB,OAAO,EAAE,MAAM,CAAC;IAOhB,eAAe,EAAE,MAAM,CAAC;CACzB"}

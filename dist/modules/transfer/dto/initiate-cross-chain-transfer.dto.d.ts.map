@@ -1,0 +1,1 @@
+{"version":3,"file":"initiate-cross-chain-transfer.dto.d.ts","sourceRoot":"","sources":["../../../../src/modules/transfer/dto/initiate-cross-chain-transfer.dto.ts"],"names":[],"mappings":"AAGA,qBAAa,6BAA6B;IAMxC,YAAY,EAAE,MAAM,CAAC;IAOrB,gBAAgB,EAAE,MAAM,CAAC;IAOzB,aAAa,EAAE,MAAM,CAAC;IAOtB,kBAAkB,EAAE,MAAM,CAAC;IAO3B,MAAM,EAAE,MAAM,CAAC;IAOf,eAAe,EAAE,MAAM,CAAC;CACzB"}
