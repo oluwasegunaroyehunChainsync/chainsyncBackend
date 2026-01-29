@@ -18,7 +18,16 @@ const ERC20_ABI = [
   'function balanceOf(address account) external view returns (uint256)',
   'function transfer(address to, uint256 amount) external returns (bool)',
   'function allowance(address owner, address spender) external view returns (uint256)',
+  'function decimals() external view returns (uint8)',
 ];
+
+// Known token decimals (Ethereum mainnet addresses, lowercase for comparison)
+// Most ERC20 tokens use 18 decimals, but stablecoins often use 6
+const KNOWN_TOKEN_DECIMALS: Record<string, number> = {
+  '0xdac17f958d2ee523a2206206994597c13d831ec7': 6,  // USDT
+  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48': 6,  // USDC
+  '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599': 8,  // WBTC
+};
 
 @Injectable()
 export class TransferService {
@@ -48,7 +57,12 @@ export class TransferService {
         throw new BadRequestException('Invalid recipient address');
       }
 
-      const amountBigInt = ethers.parseEther(amount);
+      // Get token decimals (use known decimals or default to 18)
+      const tokenAddressLower = tokenAddress.toLowerCase();
+      const decimals = KNOWN_TOKEN_DECIMALS[tokenAddressLower] ?? 18;
+
+      // Use parseUnits with correct decimals (USDT/USDC = 6, WBTC = 8, others = 18)
+      const amountBigInt = ethers.parseUnits(amount, decimals);
 
       // Check balance
       const balance = await this.blockchainService.callContractFunction(
@@ -143,7 +157,12 @@ export class TransferService {
         throw new BadRequestException('Use same-chain transfer for same chain');
       }
 
-      const amountBigInt = ethers.parseEther(amount);
+      // Get token decimals (use known decimals or default to 18)
+      const tokenAddressLower = tokenAddress.toLowerCase();
+      const decimals = KNOWN_TOKEN_DECIMALS[tokenAddressLower] ?? 18;
+
+      // Use parseUnits with correct decimals (USDT/USDC = 6, WBTC = 8, others = 18)
+      const amountBigInt = ethers.parseUnits(amount, decimals);
 
       // Check balance
       const balance = await this.blockchainService.callContractFunction(
