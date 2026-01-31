@@ -88,15 +88,34 @@ class RelayService {
   }
 
   private async verifyValidatorStatus() {
-    const isValidatorOnBase = await this.baseChainSync.validators(this.validatorWallet.address);
-    const isValidatorOnEth = await this.ethereumChainSync.validators(this.validatorWallet.address);
-    console.log(`Validator on Base: ${isValidatorOnBase ? '✅' : '❌'}`);
-    console.log(`Validator on Ethereum: ${isValidatorOnEth ? '✅' : '❌'}`);
+    try {
+      const isValidatorOnBase = await this.baseChainSync.validators(this.validatorWallet.address);
+      console.log(`Validator on Base: ${isValidatorOnBase ? '✅' : '❌'}`);
+    } catch (e) {
+      console.log(`Validator on Base: ⚠️ Could not verify (contract may not have validator check)`);
+    }
 
-    const baseBalance = await this.baseProvider.getBalance(this.validatorWallet.address);
-    const ethBalance = await this.ethereumProvider.getBalance(this.validatorWallet.address);
-    console.log(`Gas on Base: ${ethers.formatEther(baseBalance)} ETH`);
-    console.log(`Gas on Ethereum: ${ethers.formatEther(ethBalance)} ETH\n`);
+    try {
+      const isValidatorOnEth = await this.ethereumChainSync.validators(this.validatorWallet.address);
+      console.log(`Validator on Ethereum: ${isValidatorOnEth ? '✅' : '❌'}`);
+    } catch (e) {
+      console.log(`Validator on Ethereum: ⚠️ Could not verify (contract may not have validator check)`);
+    }
+
+    try {
+      const baseBalance = await this.baseProvider.getBalance(this.validatorWallet.address);
+      console.log(`Gas on Base: ${ethers.formatEther(baseBalance)} ETH`);
+    } catch (e) {
+      console.log(`Gas on Base: ⚠️ Could not check`);
+    }
+
+    try {
+      const ethBalance = await this.ethereumProvider.getBalance(this.validatorWallet.address);
+      console.log(`Gas on Ethereum: ${ethers.formatEther(ethBalance)} ETH`);
+    } catch (e) {
+      console.log(`Gas on Ethereum: ⚠️ Could not check`);
+    }
+    console.log('');
   }
 
   private async pollForTransfers() {
